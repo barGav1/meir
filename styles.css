@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>פני מאיר - עמוד ראשי</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Define the Rubik Spray Paint font */
+    @font-face {
+      font-family: "Rubik Spray Paint";
+      src: url("file:///C:/Users/USER/Desktop/penei%20meir/website/RubikSprayPaint-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #f8f8f8;
+      padding: 20px;
+      text-align: center; /* Center align the text */
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Center align items */
+      margin-bottom: 20px;
+    }
+
+    .banner-image {
+      width: 80%;
+      max-width: 170px; /* Adjust the max-width as needed */
+      margin-right: auto; /* Remove the margin-right */
+      margin-left: auto; /* Center align the image */
+    }
+    .reg-image {
+      width: 100%;
+      max-width: 600px; /* Adjust the max-width as needed */
+      margin-right: 0; /* Remove the margin-right */
+      margin-left: auto; /* Center align the image */
+    }
+    .header-text {
+      color: #333;
+      font-family: "Rubik Spray Paint", Arial, sans-serif; /* Use Rubik Spray Paint font */
+      font-size: 86px; /* Adjust the font size as needed */
+      font-weight: bold;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 1.2;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #333;
+      text-align: right; /* Right align the text */
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav li a {
+      color: #fff;
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+      background-color: #555;
+    }
+
+    /* Main content styles */
+    main {
+      padding: 20px;
+    }
+
+    .subheading {
+      color: #333;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+
+    /* Placeholder styles for demonstration */
+    main {
+      background-color: #f2f2f2;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <img src="harav.png" alt="Person" class="banner-image">
+      <h1 class="header-text">ברוכים הבאים</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">עמוד ראשי</a></li>
+      <li><a href="#">עמוד 1</a></li>
+      <li><a href="#">עמוד 2</a></li>
+      <li><a href="#">עמוד 3</a></li>
+      <!-- Add more menu items for other pages -->
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Content of the main page goes here -->
+    <h2 class="subheading">התוכן הראשי</h2>
+    <p>זו דוגמה לתוכן הראשי של העמוד הראשי.</p>
+  </main>
+
+</body>
+</html>
